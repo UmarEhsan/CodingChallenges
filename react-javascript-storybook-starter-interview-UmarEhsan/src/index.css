@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.sellers{
+  background: #FFFFFF;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 25px;
+    position: relative;
+    top: 50px;
+  
+}
+
+ 
+.container {
+  overflow: auto;
+  width: 300px;
+  margin: 0 auto;
+  padding: 10px;
+  
+}
+.label{
+  text-align: left;
+  padding: 20px;
+  /* border: 1px solid black; */
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.image{
+  width:30%;
+  float: left;
+  display: flex;
+  justify-content: center;
+}
+
+.selected{
+  width: 90%;
+  margin: 0 auto;
+  background: #FEF2EE;
+  height: 135px;
+  border-radius: 20px;
+  text-align: left;
+}
+.notSelected{
+  width: 90%;
+    margin: 0 auto;
+ 
+    height: 135px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+
+.details{
+  float: left;
+  justify-content: center;
+}
+.details p{
+  margin:10px;
+}
+
+
+
+
+
+
+.best-sellers{
+  height: 85vh;
+  background: #FAEFE3;
+}
+img{
+  width: 70%;
+  margin: 0px auto;
+  transform: translate(0%, 35%);
+}
+
+
+
+
+.chat-container{
+  display: 'flex';
+  justify-content:'center'; 
+  align-items:'center';
+  height: '100vh'
+}
+
+.container-seller {
+
+  padding: 5px;
+  margin: 5px;
+}
